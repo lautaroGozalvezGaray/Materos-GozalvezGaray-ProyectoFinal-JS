@@ -1,0 +1,87 @@
+/*-------------------ESTILOS DE NOSOTROS-------------*/
+/*DESKTOP*/
+@media (min-width: 1024px){
+    .mainConsejo{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        margin: 3rem;
+        .iframeVideo{
+            display: flex;
+            align-self: center;
+            iframe{
+                max-width: 100%;
+                border-radius: 5px;
+            }
+        }
+        .accordionstyle{
+            width: 70%;
+            .colorButton{
+                color: rgb(112, 134, 98);
+            }
+            p{
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
+/*TABLET*/
+@media (min-width: 500px) and (max-width: 1023px){
+    .mainConsejo{
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        gap: 1.5rem;
+        .iframeVideo{
+            display: flex;
+            justify-content: center;
+            iframe{
+                width: 70%;
+                border-radius: 5px;
+            }
+        }
+        .accordionstyle{
+            width: 90%;
+            .colorButton{
+                color: rgb(112, 134, 98);
+            }
+            p{
+                font-size: 1rem;
+            }
+        }
+    }
+}
+/*MOBILE*/
+@media (max-width: 500px){
+    .mainConsejo{
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        gap: 1.5rem;
+        .iframeVideo{
+            display: flex;
+            justify-content: center;
+            iframe{
+                width: 90%;
+                border-radius: 5px;
+            }
+        }
+        .accordionstyle{
+            width: 90%;
+            .colorButton{
+                color: rgb(112, 134, 98);
+            }
+            p{
+                font-size: 0.8rem;
+            }
+        }
+    }
+}

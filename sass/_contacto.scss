@@ -1,0 +1,211 @@
+/*---------------ESTILOS DE CONTACTO---------------*/
+
+/*DESKTOP*/
+@media (min-width: 1024px){
+    .main{
+        .contact {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 2.5rem;
+            .contactTitle {
+                background-color: $background;
+                border-radius: 15px;
+                width: 80%;
+                height: 35px;
+                text-align: center;
+                margin-bottom: 2rem;
+                h2 {
+                    font-family: $fontAllPage;
+                    font-size: 1.8rem;
+                }
+            }
+            .iframeMaps{
+                display: flex;
+                justify-content: center;
+                iframe {
+                    border-radius: 0.5rem;
+                    width: 80%;
+                }
+            }
+            .data {
+                border-style: groove;
+                border-color: rgb(0, 0, 0);
+                margin-top: 1.3rem;
+                margin-bottom: 2rem;
+                font-family: $fontAllPage;
+                font-size: 1.3rem;
+                background-color: rgb(245, 245, 245);
+            }
+            ul {
+                display: flex;
+                flex-direction: row;
+                list-style: none;
+                flex-wrap: row wrap;
+                justify-content: space-between;
+                margin-bottom: 2rem;
+                gap: 1.5rem;
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-family: $fontAllPage;
+                }
+            }
+        }
+        .backForm {
+            background-color: rgb(241, 241, 241);
+            margin-bottom: 30px;
+            margin-top: 15px;
+            text-align: center;
+            form {
+                display: flex;
+                flex-direction: column;
+                justify-items: center;
+            }
+            input, textarea, select{
+                text-align: center;
+            }
+        }
+    }
+}
+/*TABLET*/
+@media (min-width: 500px) and (max-width: 1023px){
+    .main{
+        .contact {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 2.5rem;
+            .contactTitle {
+                background-color: $background;
+                border-radius: 15px;
+                width: 80%;
+                height: 30px;
+                text-align: center;
+                margin-bottom: 2rem;
+                h2 {
+                    font-family: $fontAllPage;
+                    font-size: 1.5rem;
+                }
+            }
+            .iframeMaps{
+                display: flex;
+                justify-content: center;
+                iframe {
+                    border-radius: 0.5rem;
+                    width: 80%;
+                }
+            }
+            .data {
+                border-style: groove;
+                border-color: rgb(0, 0, 0);
+                margin-top: 1.3rem;
+                margin-bottom: 2rem;
+                font-family: $fontAllPage;
+                font-size: 1.3rem;
+                background-color: rgb(245, 245, 245);
+            }
+            ul {
+                display: flex;
+                flex-direction: row;
+                list-style: none;
+                flex-wrap: row wrap;
+                justify-content: space-between;
+                margin-bottom: 2rem;
+                gap: 1rem;
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-family: $fontAllPage;
+                }
+            }
+        }
+        .backForm {
+            background-color: rgb(241, 241, 241);
+            margin-bottom: 30px;
+            text-align: center;
+            form {
+                display: flex;
+                flex-direction: column;
+                justify-items: center;
+            }
+            input, textarea, select{
+                text-align: center;
+            }
+        }
+    }
+}
+/*MOBILE*/
+@media (max-width: 500px){
+    .main{
+        .contact {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 2.5rem;
+            .contactTitle {
+                background-color: $background;
+                border-radius: 15px;
+                width: 80%;
+                height: 20px;
+                text-align: center;
+                margin-bottom: 2rem;
+                h2 {
+                    font-family: $fontAllPage;
+                    font-size: 1rem;
+                }
+            }
+            .iframeMaps{
+                display: flex;
+                justify-content: center;
+                iframe {
+                    border-radius: 0.5rem;
+                }
+            }
+            .data {
+                border-style: groove;
+                border-color: rgb(0, 0, 0);
+                margin-top: 1.3rem;
+                margin-bottom: 2rem;
+                font-family: $fontAllPage;
+                font-size: 1rem;
+                background-color: rgb(245, 245, 245);
+            }
+            .redes{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                ul {
+                    display: flex;
+                    flex-direction: row;
+                    list-style: none;
+                    flex-wrap: row wrap;
+                    justify-content: space-around;
+                    text-align: center;
+                    margin-bottom: 2rem;
+                    gap: 1rem;
+                    a {
+                        text-decoration: none;
+                        color: black;
+                        font-family: $fontAllPage;
+                        font-size: 0.9rem;
+                    }
+                }
+            }
+        }
+        .backForm {
+            background-color: rgb(241, 241, 241);
+            margin-bottom: 30px;
+            text-align: center;
+            form {
+                display: flex;
+                flex-direction: column;
+                justify-items: center;
+            }
+            input, textarea, select{
+                text-align: center;
+            }
+        }
+
+    }
+}

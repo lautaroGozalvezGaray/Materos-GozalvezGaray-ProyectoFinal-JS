@@ -1,0 +1,50 @@
+/*ESTILOS DEL NAV*/
+
+header {
+  grid-area: header;
+  top: 0;
+  position: sticky;
+  height: 8.2rem;
+  opacity: 0.9;
+  z-index: 5;
+  .navBar2 {
+    .containerLogo{
+      text-align: center;
+      margin-left: 1rem;
+      .logo {
+        margin: 0.9rem 0.9rem;
+      }
+      .titleLogo{
+        font-family: "Lobster", sans-serif;
+        font-size: 1.8rem;
+      }
+    }
+    li {
+      margin-left: 5px;
+    }
+    .ulBtn a{
+      margin-left: 10px;
+      margin-right: 5px;
+    }
+    .navBtn:hover {
+      background-color: rgb(220, 217, 217);
+      text-decoration-line: underline;
+      border-radius: 5px;
+    }
+  }
+}
+@media (min-width: 500px) and (max-width: 1023px){
+  .navBar2{
+    li{
+      text-align: center;
+    }
+  }
+}
+@media (max-width: 500px){
+  .navBar2{
+    li{
+      text-align: center;
+    }
+  }
+}
+/*FIN DE ESTILOS DEL NAV*/

@@ -1,0 +1,22 @@
+/*ESTILOS GENERALES*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(to top, rgb(235, 234, 234), rgb(142, 190, 142));
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+@import "variables";
+@import "mapsandmixin";
+@import "nav";
+@import "index";
+@import "nuestrosproductos";
+@import "comocomprar";
+@import "cultura";
+@import "contacto";
+@import "footer";

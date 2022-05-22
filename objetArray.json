@@ -1,0 +1,87 @@
+[
+    {
+        "categoria":"mates",
+        "precio": 3800,
+        "tipo": "alpaca cincelada"
+    },
+    {
+        "categoria":"mates",
+        "precio": 4100,
+        "tipo": "imperial criollo"
+    },
+    {
+        "categoria":"mates",
+        "precio": 7100,
+        "tipo": "imperial gold argentino"
+    },
+    {
+        "categoria":"mates",
+        "precio": 8300,
+        "tipo": "camionero cincelado"
+    },
+    {
+        "categoria":"termos",
+        "precio": 7500,
+        "tipo": "stanley metal"
+    },
+    {
+        "categoria":"termos",
+        "precio": 15000,
+        "tipo": "stanley classic bottle 750Ml"
+    },
+    {
+        "categoria":"termos",
+        "precio": 10900,
+        "tipo": "stanley classic bottle 1Lts"
+    },
+    {
+        "categoria":"termos",
+        "precio": 9800,
+        "tipo": "stanley classic bottle 750Ml"
+    },
+    {
+        "categoria":"termos",
+        "precio": 3300,
+        "tipo": "keep 1L pico cebador"
+    },
+    {
+        "categoria":"termos",
+        "precio": 3200,
+        "tipo": "termos ploteados"
+    },
+    {
+        "categoria":"mochilas",
+        "precio": 4900,
+        "tipo": "mochila cuenca negra"
+    },
+    {
+        "categoria":"mochilas",
+        "precio": 5300,
+        "tipo": "mochila materok gris oscuro"
+    },
+    {
+        "categoria":"mochilas",
+        "precio": 6100,
+        "tipo": "mochila matriona bordó"
+    },
+    {
+        "categoria":"mochilas",
+        "precio": 6000,
+        "tipo": "mochila matriona azul"
+    },
+    {
+        "categoria":"mochilas",
+        "precio": 7000,
+        "tipo": "mochila matera urbana verde"
+    }
+]
+
+
+
+
+
+
+
+
+
+

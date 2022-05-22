@@ -1,0 +1,67 @@
+/*MAPS*/
+
+/*iconos del footer y contacto*/
+$redes:(
+    facebook: rgb(81, 98, 248),
+    instagram: rgb(224, 104, 67),
+    twitter: rgb(10, 195, 241),
+    whatsapp: rgb(12, 182, 26)
+);
+
+@each $red, $color in $redes {
+    .bi-#{$red}{
+        color: $color;
+    }
+    
+}
+
+/*mixin sin parametro*/
+
+@mixin display-center{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.titleEachProduct, .productDest{
+    @include display-center();
+}
+
+
+/*maps-get aplicado a titulo principal productos destacados del index*/
+
+$estilos:(
+    centrado: center,
+    fuente: $fontAllPage,
+    margen: 2.5rem,
+    fondo: rgb(238, 238, 238),
+    ancho: 80%,
+    borde: 15px
+);
+.productDest h2{
+    text-align: map-get($estilos, centrado );
+    font-family: map-get($estilos, fuente );
+    margin-top: map-get($estilos, margen );
+    background-color: map-get($estilos, fondo );
+    width: map-get($estilos, ancho );
+    border-radius: map-get($estilos, borde);
+
+}
+
+/*EXTEND*/
+
+.howToBuy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    gap: 2.5rem;
+}
+.divParragrph{
+    @extend .howToBuy;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
