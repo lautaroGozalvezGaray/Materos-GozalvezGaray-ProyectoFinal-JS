@@ -11,7 +11,7 @@ class Productos{
 
 let stock=[];
 
-fetch("/objetArray.json")
+fetch("../objetArray.json")
     .then((response) => {
         return response.json();
     }).then((objet) => {

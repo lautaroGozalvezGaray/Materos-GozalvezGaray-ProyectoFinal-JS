@@ -28,40 +28,47 @@ let radio0 = document.querySelector(".all");
 let radio1 = document.querySelector(".mate");
 let radio2 = document.querySelector(".termo");
 let radio3 = document.querySelector(".mochila");
-mate = document.getElementById("mates");
-termo = document.getElementById("termos");
-mochila = document.getElementById("mochilas");
+mate = document.getElementsByClassName("mates");
+termo = document.getElementsByClassName("termos");
+mochila = document.getElementsByClassName("mochilas");
 
 radio0.addEventListener( 'change', function() {
     if(this.checked) {
-        mate.style.display='';
-        termo.style.display='';
-        mochila.style.display=''; 
+        for(let i=0; i<=4; i++){
+            termo[i].style.display="";
+            mate[i].style.display="";
+            mochila[i].style.display="";
+        }
     }});
 
 radio1.addEventListener( 'change', function() {
 if(this.checked) {
-    mate.style.display='';
-    termo.style.display='none';
-    mochila.style.display='none'; 
+    for(let i=0; i<=4; i++){
+        mate[i].style.display="";
+        mochila[i].style.display="none";
+        termo[i].style.display="none";
+    }
 }});
 
 radio2.addEventListener('change', function(){
 
     if(this.checked){
-        termo.style.display='';
-        mate.style.display='none';
-        mochila.style.display='none'
+        for(let i=0; i<=4;i++){
+            mate[i].style.display="none";
+            mochila[i].style.display="none";
+            termo[i].style.display="";
+        }
     }
 
 });
-
 radio3.addEventListener('change', function(){
-
     if(this.checked){
-        termo.style.display='none';
-        mate.style.display='none';
-        mochila.style.display=''
+        for(let i=0; i<=4; i++){
+            termo[i].style.display="none";
+            mate[i].style.display="none";
+            mochila[i].style.display="";
+        }
     }
+    
 
 });
