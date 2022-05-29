@@ -1,7 +1,6 @@
 //BUSCADOR DE ELEMENTOS
 
-const cards = document.querySelectorAll('.cardd')
-console.log(cards)
+const cards = document.querySelectorAll('.cardd');
 
 document.addEventListener('keyup', (e) => {
     if(e.target.matches('.filter')){
